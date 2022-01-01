@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body { 
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+
+header > h1 {
+    font-family: "Passion One", cursive;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-style: normal;
+    font-size: 12em;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.container1 {
+    position: relative;
+    background-color: white;
+    height: 1000px;
+    padding-top: 20px;
+    margin: 50px 10px 50px 0px;
+}
+
+.container1  p {
+    font-family: 'Sriracha', cursive;
+    font-size: 4.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+#conteudo-1 {
+    margin: 10px;
+    padding: 20px;
+}
+
+.container-img {
+    position: relative;
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+    height: 1000px;
+}
+
+#conteudo-2 {
+    position: absolute;
+    background-color: #0007009c;
+    width: 800px;
+
+    left: 30px;
+    top: 10%;
+}
+
+#conteudo-2 p {
+    font-family: 'Sriracha', cursive;
+    color: white;
+    font-size: 4.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.container-conteudo3 {
+    position: relative;
+    background-color: white;
+
+    padding-top: 20px;
+    margin: 10px;
+    padding: 20px;
+    height: 1800px;
+    
+}
+
+.container-conteudo3  p {
+    font-family: 'Sriracha', cursive;
+    font-size: 4.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+
+.container-img2 {
+    position: relative;
+
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
+    height: 1000px;
+}
+
+#conteudo4 {
+    position: absolute;
+    background-color: #0007009c;
+    width: 800px;
+
+    left: 30px;
+    top: 10%;
+}
+
+#conteudo4 p {
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 4.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+    min-width: 500px;
+    max-width: 800px;
+}
+
+.container-normal {
+    position: relative;
+    background-color: white;
+
+    padding-top: 20px;
+    margin: 10px;
+    padding: 20px;
+    height: 1000px;
+}
+
+#conteudo-normal p {
+    font-family: 'Sriracha', cursive;
+    font-size: 4.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
