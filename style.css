@@ -77,7 +77,7 @@ section {
 a {
     font-family: var(--fonte1);
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
 }
 
